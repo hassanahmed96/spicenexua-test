@@ -1,0 +1,141 @@
+/* GLOBAL */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #0B2F1F;
+  color: #E0FFE8;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(180deg, #0B2F1F, #071A12);
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-container img {
+  width: 60px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2.8rem;
+  color: #39FF14;
+  letter-spacing: 2px;
+}
+
+h2 {
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+p {
+  max-width: 600px;
+  margin: 20px auto;
+  opacity: 0.8;
+}
+
+/* BUTTONS */
+button, .secondary-btn {
+  background: transparent;
+  border: 1px solid #39FF14;
+  color: #39FF14;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+button:hover, .secondary-btn:hover {
+  background: #39FF14;
+  color: #000;
+  box-shadow: 0 0 15px #39FF14;
+}
+
+/* DOWNLOAD SECTION */
+.downloads {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.download-grid {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.download-card {
+  width: 180px;
+  height: 120px;
+  border: 1px solid rgba(57,255,20,0.3);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  backdrop-filter: blur(10px);
+}
+
+.download-card i {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.download-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px #39FF14;
+}
+
+.version {
+  margin-top: 20px;
+  opacity: 0.7;
+}
+
+/* DASHBOARD */
+.dashboard {
+  padding: 40px 20px;
+  background: #071A12;
+  text-align: center;
+}
+
+.card {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid rgba(57,255,20,0.3);
+  border-radius: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background: transparent;
+  border: 1px solid #39FF14;
+  color: #fff;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 10px #39FF14;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  opacity: 0.6;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpiceNexus</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="hero">
+  <div class="logo-container">
+    <img src="logo.jfif" alt="logo">
+    <h1>SpiceNexus</h1>
+  </div>
+
+  <h2>The Modern IDE for Analog & Mixed-Signal IC Design</h2>
+
+  <p>
+    SpiceNexus brings modern software workflows to hardware design with integrated databases,
+    sleek UI, and version control. Built to enhance LTspice simulation with speed, clarity,
+    and intelligent tooling.
+  </p>
+
+  <a href="#" id="manualBtn" class="secondary-btn">
+    📖 Read the User Manual (PDF)
+  </a>
+</header>
+
+<!-- DOWNLOAD SECTION -->
+<section class="downloads">
+  <h2>Download</h2>
+
+  <div class="download-grid">
+    <button class="download-card">
+      <i class="fab fa-windows"></i>
+      <span>Windows</span>
+    </button>
+
+    <button class="download-card">
+      <i class="fab fa-apple"></i>
+      <span>macOS</span>
+    </button>
+
+    <button class="download-card">
+      <i class="fab fa-linux"></i>
+      <span>Linux (WINE)</span>
+    </button>
+  </div>
+
+  <p class="version" id="versionText">Version: v1.0.0</p>
+</section>
+
+<!-- ADMIN DASHBOARD -->
+<section class="dashboard">
+  <h2>Admin Dashboard</h2>
+
+  <div class="card">
+    <label>Update Version</label>
+    <input type="text" id="versionInput" placeholder="e.g. v1.1.0">
+    <button onclick="updateVersion()">Update Version</button>
+  </div>
+
+  <div class="card">
+    <label>Update Manual Link</label>
+    <input type="text" id="manualInput" placeholder="Paste PDF URL">
+    <button onclick="updateManual()">Update Manual</button>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © 2026 SpiceNexus. All rights reserved.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
